@@ -1,7 +1,7 @@
 # Semana 6 - Tarea 1  
 ## Login Simple en Angular y .NET con Validación de Sesión
 ## Descripción
-Este proyecto corresponde a la actividad académica **Semana 6 - Tarea 1**, cuyo objetivo fue desarrollar un sistema de autenticación básico que permita iniciar sesión desde Angular consumiendo una API en .NET, almacenar el usuario en el navegador y validar la sesión desde el backend. El sistema implementa un flujo completo cliente-servidor simulando el comportamiento de aplicaciones reales de autenticación utilizadas en entornos profesionales.
+Este proyecto corresponde a la actividad académica Semana 6 - Tarea 1, cuyo objetivo fue desarrollar un sistema de autenticación básico que permita iniciar sesión desde Angular consumiendo una API en .NET, almacenar el usuario en el navegador y validar la sesión desde el backend. El sistema implementa un flujo completo cliente-servidor simulando el comportamiento de aplicaciones reales de autenticación utilizadas en entornos profesionales.
 ## Objetivo de la tarea
 Desarrollar un login funcional que:
 - Permita autenticación desde Angular
@@ -47,18 +47,17 @@ Cerrar sesión
 POST `/api/Auth/logout`
 ## Estructura del proyecto
 Frontend Angular
-src/app/
--login/
--home/
--app.routes.ts
--app.config.ts
+src/app
+- login
+- home
+- app.routes.ts
+- app.config.ts
 Backend .NET
--Controllers/
--Models/
--Data/
--Program.cs
+- Controllers
+- Models
+- Data
+- Program.cs
 ## Conclusión
-
 El sistema desarrollado cumple satisfactoriamente con los objetivos planteados en la actividad, demostrando la implementación correcta de un mecanismo de autenticación simple entre cliente y servidor. Se evidencia el uso adecuado de tecnologías modernas, manejo de sesiones mediante tokens y persistencia de datos en el navegador, simulando el comportamiento de aplicaciones reales de autenticación web.
 ## Autor
 Henry Álvarez
