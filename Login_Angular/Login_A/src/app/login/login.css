@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(135deg,#4facfe,#00f2fe);
+}
+
+.card {
+  border-radius: 20px !important;
+}
+
+.tm-logo {
+  width:70px;
+  height:70px;
+  border-radius:16px;
+  background: linear-gradient(135deg,#4facfe,#00f2fe);
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:bold;
+  font-size:24px;
+  margin:auto;
+  box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.tm-title{
+  font-weight:700;
+  color:#2b6ef7;
+}
+
+.tm-subtitle{
+  font-size:14px;
+  color:#777;
+}
+
+.btn-primary{
+  background:linear-gradient(135deg,#2b6ef7,#00c6ff);
+  border:none;
+  border-radius:30px;
+  font-weight:600;
+  padding:12px;
+  transition:.3s;
+}
+
+.btn-primary:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+input.form-control{
+  border-radius:12px;
+  padding:12px;
+}
+
+input.form-control:focus{
+  border-color:#2b6ef7;
+  box-shadow:0 0 0 .2rem rgba(43,110,247,.25);
+}

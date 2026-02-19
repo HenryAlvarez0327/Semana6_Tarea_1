@@ -1,0 +1,40 @@
+<div class="min-vh-100 d-flex align-items-center justify-content-center px-3">
+
+  <div class="card shadow-lg border-0 home-card">
+    <div class="card-body p-4 p-md-5 text-center">
+
+      <h2 class="mb-2 title">
+        Bienvenido, {{ usuario }}
+      </h2>
+
+      <div class="mt-3">
+        <span class="badge estado-badge">
+          Estado: {{ estado }}
+        </span>
+      </div>
+
+      <hr class="my-4">
+
+      <div class="d-flex justify-content-center gap-3 flex-wrap">
+
+        <button class="btn btn-outline-secondary btn-custom"
+                type="button"
+                (click)="salir()">
+          Cerrar sesión
+        </button>
+
+        <a class="btn btn-primary btn-custom"
+           routerLink="/login">
+          Ir a Login
+        </a>
+
+      </div>
+
+      <div class="footer-text mt-4">
+        Proyecto Integrador • UNIANDES
+      </div>
+
+    </div>
+  </div>
+
+</div>
