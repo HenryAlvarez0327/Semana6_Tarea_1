@@ -46,13 +46,13 @@ GET `/api/Auth/validate`
 Cerrar sesión  
 POST `/api/Auth/logout`
 ## Estructura del proyecto
-Frontend Angular
+## Frontend Angular
 src/app
 - login
 - home
 - app.routes.ts
 - app.config.ts
-Backend .NET
+## Backend .NET
 - Controllers
 - Models
 - Data
