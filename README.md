@@ -67,4 +67,6 @@ Henry Álvarez
 <img width="1919" height="959" alt="image" src="https://github.com/user-attachments/assets/d62ee756-d720-4f62-a50b-7452f897d706" />
 <img width="1916" height="959" alt="image" src="https://github.com/user-attachments/assets/53325eca-5402-4b56-bd67-c128c103edeb" />
 <img width="1919" height="1000" alt="image" src="https://github.com/user-attachments/assets/a328911d-9f46-4194-97ef-46352fa8fe7a" />
+<img width="1915" height="966" alt="image" src="https://github.com/user-attachments/assets/6bbff716-cc30-46df-9446-9615230da4f2" />
+<img width="1917" height="975" alt="image" src="https://github.com/user-attachments/assets/10530c66-69d9-4a05-a1a0-be0e2563e06a" />
 
